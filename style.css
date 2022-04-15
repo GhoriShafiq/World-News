@@ -1,0 +1,498 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::placeholder
+{
+    color: #ffffff;
+}
+h1,h2,h3,h4,p
+{
+    font-family: arial;
+}
+body
+{
+    background-color: #EBEDED;
+}
+/*------navbar start----*/
+.container
+{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+}
+.logo
+{
+    margin-right: 40%;
+    color: #FA6980;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.container div
+{
+    width: 30%;
+    text-align: center;
+    line-height: 50PX;
+}
+.container div a
+{
+    text-decoration: none;
+    color: gray;
+}
+.container div img
+{
+    height: 6vh;
+}
+span
+{
+    color: black;
+}
+/*-----navbar end----*/
+/*------content start---*/
+.world
+{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    margin-top: 1%;
+}
+.world .divi2
+{
+    width: 50%;
+    height: 80vh;
+    background-color: #ffffff;
+}
+.world .divi
+{
+    background: url(images/Image.png);
+    background-size: 100% 100%;
+}
+.world .divi .worldnews
+{
+    width: 75%;
+    height: 38vh;
+    margin: 20% 0 0 12.5%;
+}
+.world .divi .worldnews h1,.world .divi .worldnews h2
+{
+    color: white;
+}
+.world .divi .worldnews hr
+{
+    background-color: white;
+    height: 0.5vh;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.world .divi .worldnews p
+{
+    color: white;
+    line-height: 1.6;
+}
+.world .divi .worldnews button
+{
+    color: white;
+    text-align: center;
+    background-color: #FA6980;
+    width: 20%;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 11px;
+    border: none;
+    margin-top: 5%;
+}
+.world .divi2 .morenews
+{
+    width: 60%;
+    height: 10vh;
+    margin: 10% 0 0 10%;
+}
+.world .divi2 .travel
+{
+    width: 60%;
+    height: 46vh;
+    margin: 2% 0 0 10%;  
+}
+.world .divi2 .travel h3
+{
+    color: #FA6980;
+    margin-bottom: 2%;
+}
+.world .divi2 .travel p
+{
+    color: gray;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.world .divi2 .travel .tech
+{
+    margin-top: 8%;
+}
+.trend,.happ
+{
+    width: 80%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 3%;
+}
+.trending
+{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.trending .trendingimg
+{
+    width: 30%;
+    background-color: #ffffff;
+}
+.trending .trendingimg img
+{
+    width: 100%;
+}
+.trending .trendingimg h4
+{
+    padding-top: 10%;
+    padding-left: 15%;
+}
+.trending .trendingimg p
+{
+    line-height: 1.6;
+    padding-left: 15%
+}
+.trending .trendingimg p img
+{
+    width: 6%;
+}
+.largediv
+{
+    width: 80%;
+    height: 120vh;
+    margin: auto;
+    display: flex;
+}
+.large
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 120vh;
+}
+.large .largearticle
+{
+    width: 97%;
+    height: 58vh;
+}
+.large .backimg1
+{
+    background: url(images/back1.png);
+    background-size: 100% 100%;
+}
+.large .backimg1 h3,.large .backimg2 h3
+{
+    color: #ffffff;
+    padding: 3% 0 0 5%;
+
+}
+.large .backimg1 h1,.large .backimg2 h1
+{
+    color: #ffffff;
+    padding: 22% 0 0 5%;
+
+}
+.large .backimg1 p,.large .backimg2 p
+{
+    color: #ffffff;
+    margin:  0 0 0 5%;
+    font-size: 14px;
+    width: 90%;
+    line-height: 1.6;
+}
+.large .backimg1 p img,.large .backimg2 p img
+{
+    margin-top: 3%;
+}
+.large .backimg2
+{
+    background: url(images/back2.png);
+    background-size: 100% 100%;
+}
+.title
+{
+    width: 30%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.title .small
+{
+    width: 100%;
+    height: 39vh;
+}
+.title .smallimg1
+{
+    background: url(images/small1.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+.title .small h4
+{
+    margin-top: 60%;
+}
+.title .small p
+{
+    font-size: 12px;
+    line-height: 1.6;
+}
+.title .smallimg2
+{
+    background: url(images/small2.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+.title .smallimg3
+{
+    background: url(images/small3.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+/*------content end---*/
+
+/*----footer-----*/
+.footer
+{
+    width: 100%;
+    height: 30vh;
+    background: #A6ADB4;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+}
+.footer .footerlink1
+{
+    width: 35%;
+    height: 25vh;
+    margin-left: 10%;   
+}
+.footer .footerlink
+{
+    width: 20%;
+    height: 25vh;
+    margin-left: 5%;  
+}
+.footer .footerlink1 h4
+{
+    color: #ffffff;
+    width: 20%;
+    margin-top: 10%;
+}
+.footer .footerlink1 a
+{
+    text-decoration: none;
+    color: #CBD0D3;
+}
+.footer .footerlink1 ul
+{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10%;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+.footer .footerlink1 .ul1
+{
+    margin-left: 15%;
+    
+}
+.footer .footerlink1 ul li
+{
+    line-height: 1.6;
+}
+.footer .footerlink input
+{
+    margin-top: 10%;
+    height: 7vh;
+    background: transparent;
+    border-color: #CBD0D3;
+    border-radius: 5px;
+    padding-left: 9%;
+    font-size: 16px;
+    width: 100%;
+    color: #ffffff;
+}
+.footer .footerlink button
+{
+    background: transparent;
+    border: none;
+    position: relative;
+    left: 90%;
+    top: -20%;
+}
+.footer .footerlink p
+{
+    font-size: 12px;
+    color: #CBD0D3;
+    line-height: 2.6;
+}
+.footer .footerlink .icons
+{
+    width: 60%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footerlink .icons img
+{
+    height: 4vh;
+    margin-right: 7%;
+}
+/*-----footer end----*/
+/*----------------------Discovery page-------------*/
+.amazing
+{
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg3.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.amazing .headdiv
+{
+    width: 80%;
+    height: 20vh;
+    text-align: center;
+}
+.amazing .headdiv h1
+{
+    color: #ffffff;
+}
+.amazing .headdiv p
+{
+    color: #ffffff;
+}
+.amazing .headdiv p span
+{
+    padding-left: 5%;
+}
+.amazing .avter
+{
+    
+    width: 17%;
+    height: 7vh;
+    position: relative;
+    top: 35%;
+    left: -35%;
+    color: #ffffff;
+    font-weight: bolder;
+    display: flex;
+}
+.amazing .avter p
+{
+    position: relative;
+    top: 30%;
+    left: 8%;
+}
+.quisque
+{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.quisque .quisque1
+{
+    width: 30%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quisque .line
+{
+    width: 0.1%;
+    height: 90vh;
+    border: solid 1px #A6ADB4;
+}
+.quisque .jonathan
+{
+    width: 60%;
+    height: 90vh;
+}
+.quisque .quisque1 .viverra
+{
+    width: 100%;
+    height: 70vh;
+}
+.quisque .quisque1 .subtitle
+{
+    width: 100%;
+    height: 10vh;
+}
+.quisque .quisque1 .viverra p,.quisque .quisque1 .subtitle p
+{
+    line-height: 1.6;
+    margin-top: 4%;
+    color: #A6ADB4;
+    font-size: 12px;
+}
+.quisque .jonathan .jonadiv1
+{
+    width: 100%;
+    height: 50vh;
+}
+.quisque .jonathan .jonadiv2
+{
+    width: 100%;
+    height: 40vh; 
+}
+.quisque .jonathan .jonadiv1 .avter
+{
+    position: relative;
+    font-weight: bolder;
+    display: flex;
+}
+.quisque .jonathan .jonadiv1 .avter h2
+{
+    position: relative;
+    left: 2%;
+    line-height: 1.6; 
+}
+.quisque .jonathan .jonadiv1 p
+{
+    line-height: 1.6;
+    color: #A6ADB4;
+    font-size: 12px;
+}
+.quisque .jonathan .jonadiv1 .avter p
+{
+    margin-left: 2%;
+}
+.quisque .jonathan .jonadiv1 .dis1
+{
+    margin-top: 8%;
+}
+.quisque .jonathan .jonadiv2 img
+{
+    width: 100%;
+    height: 40vh;
+}
+/*-----content end----*/
